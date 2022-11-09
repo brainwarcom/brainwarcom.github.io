@@ -1,0 +1,41 @@
+sh0{
+    color: black;
+    font-size: 40px;
+    position: absolute;
+    left: 5%;
+    top: 7%;
+}
+
+xh0{
+    color: black;
+    font-size: 22px;
+    position: absolute;
+    left: 22%;
+    top: 45%;
+}
+
+xh1{
+    color: black;
+    font-size: 22px;
+    position: absolute;
+    right: 32%;
+    top: 75%;
+}
+
+#glavnaya {
+    position: absolute;
+    left: 40%;
+    top: 1%;
+}
+
+#img11 {
+    position: absolute;
+    left: 4%;
+    top: 37%;
+}
+
+#img12 {
+    position: absolute;
+    right: 34%;
+    top: 70%;
+}
