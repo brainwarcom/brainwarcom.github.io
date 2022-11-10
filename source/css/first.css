@@ -1,41 +1,142 @@
-sh0{
-    color: black;
-    font-size: 40px;
-    position: absolute;
-    left: 5%;
-    top: 7%;
+@font-face {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Nunito")
 }
 
-xh0{
-    color: black;
+body {
+    font-family: "Nunito", "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat";
+    background-image: linear-gradient(125deg, #1E90FF, #008080, #3CB371, #48D1CC, #9370DB, #DDA0DD, #BA55D3, #B22222);
+    background-size: 400% 400%;
+    animation: bganimation 14s infinite;
+}
+
+.text {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 200px;
     font-size: 22px;
-    position: absolute;
-    left: 22%;
-    top: 45%;
 }
 
-xh1{
-    color: black;
-    font-size: 22px;
-    position: absolute;
-    right: 32%;
-    top: 75%;
+@keyframes bganimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
-#glavnaya {
-    position: absolute;
-    left: 40%;
-    top: 1%;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-#img11 {
-    position: absolute;
-    left: 4%;
-    top: 37%;
+.card {
+    position: relative;
+    width: 320px;
+    height: 420px;
+    background: #191919;
+    border-radius: 20px;
+    overflow: hidden;
 }
 
-#img12 {
+.card::before {
+    content: "";
     position: absolute;
-    right: 34%;
-    top: 70%;
+    top: -50%;
+    width: 100%;
+    height: 100%;
+    background: #ffce00;
+    transform: skewY(345deg) !important;
+    transition: 0.5s;
+}
+
+.card:hover::before {
+    top: -50%;
+    transform: skewY(390deg) !important;
+}
+
+.card::after {
+    content: "CORSAIR";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: 600;
+    font-size: 6.5em;
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.card .card-headphone {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    z-index: 1;
+}
+
+.card .card-headphone img {
+    max-width: 100%;
+    transition: 0.5s;
+}
+
+.card:hover .card-headphone img {
+    max-width: 70%;
+}
+
+.card:hover .card-infos .buy {
+    top: 10px;
+    opacity: 1;
+}
+
+.card .card-infos {
+    position: relative;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.card .card-infos h3 {
+    font-size: 18px;
+    color: #FFF;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.card .card-infos .price {
+    font-size: 24px;
+    color: #ffce00;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.card .card-infos .buy {
+    position: relative;
+    top: 200px;
+    opacity: 0;
+    padding: 10px 30px;
+    margin-top: 15px;
+    color: #FFF;
+    text-decoration: none;
+    background: #ffce00;
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.5s;
 }
