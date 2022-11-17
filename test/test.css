@@ -1,0 +1,51 @@
+h1 {
+    position: absolute;
+    width: 1680px;
+    height: 71px;
+    left: 120px;
+    top: 37px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+h2 {
+    position: absolute;
+    width: 690px;
+    height: 71px;
+    left: 1183px;
+    top: 206px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: right;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+
+h3 {
+    position: absolute;
+    width: 1474px;
+    height: 630px;
+    left: 223px;
+    top: 375px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
