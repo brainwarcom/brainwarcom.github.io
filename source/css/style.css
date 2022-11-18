@@ -1,13 +1,12 @@
-@font-face {
-    font-family: "Nunito";
-    font-style: normal;
-    font-weight: 400;
-    src: local("Nunito")
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
     background-color: black;
-    font-family: "montserrat";
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-size: 75px;
 }
 
 .icon-wrap {
