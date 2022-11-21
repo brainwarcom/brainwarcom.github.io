@@ -1,0 +1,119 @@
+@media screen and (max-width: 1000px) and (min-width: 300px) {
+    .card {
+        left: 10%;
+        
+        width: 320px;
+        height: 420px;
+    }
+
+    .card .card-infos h3 {
+        font-size: 26px;
+    }
+
+    .card_2 {
+        left: 55%;
+        
+        width: 320px;
+        height: 420px;
+    }
+
+    .card_2 .card-infos_2 h3 {
+        font-size: 26px;
+    }
+
+    .card_3 {
+        top: 30%;
+        left: 10%;
+        
+        width: 320px;
+        height: 420px;
+    }
+
+    .card_3 .card-infos_3 h3 {
+        font-size: 26px;
+    }
+
+    .card_4 {
+        top: 30%;
+        left: 55%;
+        
+        width: 320px;
+        height: 420px;
+    }
+
+    .card_4 .card-infos_4 h3 {
+        font-size: 26px;
+    }
+
+    .card_5 {
+        top: 55%;
+        left: 10%;
+        
+        width: 320px;
+        height: 420px;
+    }
+
+    .card_5 .card-infos_5 h3 {
+        font-size: 26px;
+    }
+
+    .card_6 {
+        top: 55%;
+        left: 55%;
+        
+        width: 320px;
+        height: 420px;
+    }
+
+    .card_6 .card-infos_6 h3 {
+        font-size: 26px;
+    }
+
+    .card_7 {
+        top: 80%;
+        left: 10%;
+        
+        width: 320px;
+        height: 420px;
+    }
+
+    .card_7 .card-infos_7 h3 {
+        font-size: 26px;
+    }
+
+    .card_8 {
+        top: 80%;
+        left: 55%;
+        
+        width: 320px;
+        height: 420px;
+    }
+
+    .card_8 .card-infos_8 h3 {
+        font-size: 26px;
+    }
+
+    .card_9 {
+        top: 105%;
+        left: 10%;
+        
+        width: 320px;
+        height: 420px;
+    }
+
+    .card_9 .card-infos_9 h3 {
+        font-size: 24px;
+    }
+
+    .card_10 {
+        top: 105%;
+        left: 55%;
+        
+        width: 320px;
+        height: 420px;
+    }
+
+    .card_10 .card-infos_10 h3 {
+        font-size: 26px;
+    }
+}
