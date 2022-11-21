@@ -1,5 +1,0 @@
-$(".card").on("click", function() {
-        $(this).toggleClass("rotated");
-    }
-
-);
